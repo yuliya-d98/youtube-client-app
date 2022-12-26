@@ -1,0 +1,70 @@
+@import '../../../styles';
+
+.search-item {
+  background-color: $base-color;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    &_container {
+      display: flex;
+      align-items: center;
+    }
+
+    &_input {
+      background-color: #EFEFEF;
+      border: none;
+      outline: none;
+      padding: 5px;
+      width: 100%;
+      min-width: 400px;
+      display: inline-block;
+
+      &:focus {
+        border: none;
+        outline: none;
+      }
+    }
+
+    &_btn {
+      padding: 5px 22px;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+
+    &_filter {
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+
+  &__user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    margin-left: 25%;
+
+    &_name {
+    }
+
+    &_img {
+      background-color: white;
+      height: 24px;
+      cursor: pointer;
+    }
+  }
+
+}

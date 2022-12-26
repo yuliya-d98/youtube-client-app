@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+$base-color: #E5E5E5;
+$dark-base-color: #C4C4C4;
+$main-font-color: #4F4F4F;
+$light-font-color: #828282;
+$accent-color: #2f80ed;
+
+$base-font-size: 12px;
+$little-font-size: 10px;
+$header-font-size: 20px;
+
+$box-shadow: 3px 0px 9px 1px rgba(47,128,237,.5);
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 30px;
+  font-size: $base-font-size;
+  font-family: "Roboto", serif;
+}
+
+.button {
+  background-color: $accent-color;
+  box-shadow: $box-shadow;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  font-size: inherit;
+}
