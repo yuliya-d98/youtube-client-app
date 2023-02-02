@@ -1,17 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import "theming";
 
 $base-color: #E5E5E5;
 $dark-base-color: #C4C4C4;
@@ -29,15 +16,7 @@ $box-shadow: 3px 0px 9px 1px rgba(47,128,237,.5);
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 30px;
-  font-size: $base-font-size;
-  font-family: "Roboto", serif;
 }
 
-.button {
-  background-color: $accent-color;
-  box-shadow: $box-shadow;
-  border-radius: 4px;
-  color: white;
-  border: none;
-  font-size: inherit;
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
